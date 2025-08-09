@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esma'nın Hikayesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page1" class="page">
+        <h1>Selamlar!</h1>
+        <p>Merhaba, ben Esma. 19 yaşındayım. Aslen Giresunluyum ama doğduğumdan beri İstanbul’da yaşıyorum. Birçok şeyi severim ama en çok kedileri! O kadar çok seviyorum ki, onları fotoğraflamayı bile bir tutku hâline getirdim. 🐱</p>
+        <img src="kubra.jpg" alt="Kübra" class="photo">
+        <button onclick="goToPage(2)">İleri</button>
+    </div>
+    
+    <div id="page2" class="page">
+        <h1>Prensesim</h1>
+        <p>Ve işte, bu da benim kedim Prenses. O, sanki beni anlar gibi... Birine en çok ihtiyacım olduğunda yanı başımda belirdi. O günden beri onunla çok özel bir bağım var.</p>
+        <img src="prenses.jpg" alt="Prenses" class="photo">
+        <button onclick="goToPage(3)">İleri</button>
+    </div>
+
+    <div id="page3" class="page">
+        <h1>Müzik Tutkum</h1>
+        <p>Müzik dinlemek de bir başka eğlencem. O kadar çok severim ki, Spotify'da yüzlerce playlistim var! Her ruh halime uygun şarkılar bulabilirim. Eğer sen de merak ediyorsan, şurada bir link var, Spotify hesabımda istediğin tarzda müzikleri bulacağına eminim.</p>
+        <a href="https://open.spotify.com/user/31a65rjzblhrvibttana4bnbifwa?si=2722ff3a25a54236" target="_blank">Spotify Hesabım</a>
+        <button onclick="goToPage(4)">İleri</button>
+    </div>
+
+    <div id="page4" class="page">
+        <h1>Benim Hakkımda</h1>
+        <p>Çoğu zaman düşünceli biriyim. Hatta bazen özgüvenim düşük olabilir, ama arkadaşım Mehmet bir gün gözlerimdeki ışığı ve güzelliği göreceğimi düşünüyor. 😌</p>
+        <img src="esma_selfie.jpg" alt="Esma" class="photo">
+        <button onclick="goToPage(5)">İleri</button>
+    </div>
+
+    <div id="page5" class="page">
+        <h1>Son Bir Not</h1>
+        <p>İşte bu benim… Kendimle ilgili düşündüklerim ve yaşamım hakkında birkaç parça. Umarım bu küçük hikayeyi beğenmişsindir. 💖</p>
+        <button onclick="goToPage(1)">Başlangıç</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
